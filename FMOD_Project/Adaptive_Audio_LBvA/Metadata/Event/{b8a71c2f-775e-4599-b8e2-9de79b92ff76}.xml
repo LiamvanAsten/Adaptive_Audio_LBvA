@@ -201,9 +201,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{65954707-9913-45b4-a878-4ba1df371499}" />
 	<object class="MultiSound" id="{8044763e-b541-45a3-8b36-3f6dffacd4a5}">
-		<property name="start">
-			<value>0.10000000000000001</value>
-		</property>
 		<property name="length">
 			<value>0.050000000000000003</value>
 		</property>
@@ -455,8 +452,11 @@
 		<property name="color">
 			<value>Yellow Light 1</value>
 		</property>
+		<property name="start">
+			<value>0.050000000000000003</value>
+		</property>
 		<property name="length">
-			<value>0.5</value>
+			<value>0.44999999999999996</value>
 		</property>
 		<property name="looping">
 			<value>true</value>
