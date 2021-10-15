@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{1383bfa5-1aab-4c02-9b9e-4e9a894563f5}">
+		<property name="name">
+			<value>Thunder_Self</value>
+		</property>
+		<relationship name="folder">
+			<destination>{a76b087a-2e46-4a44-a296-891c2be5b3e3}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{96c63ca1-272f-43ca-996e-7e2c63ef3060}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{96c63ca1-272f-43ca-996e-7e2c63ef3060}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{f452796a-3f8b-401b-b39f-243adad14746}">
+		<property name="name">
+			<value>Torch_Fire</value>
+		</property>
+		<relationship name="folder">
+			<destination>{a76b087a-2e46-4a44-a296-891c2be5b3e3}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{894e0713-422b-44a5-b0b7-9f2e0131cf95}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{894e0713-422b-44a5-b0b7-9f2e0131cf95}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

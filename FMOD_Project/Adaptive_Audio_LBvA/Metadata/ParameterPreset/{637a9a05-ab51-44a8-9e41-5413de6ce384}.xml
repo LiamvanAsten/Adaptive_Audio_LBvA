@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{637a9a05-ab51-44a8-9e41-5413de6ce384}">
+		<property name="name">
+			<value>Wind Howl</value>
+		</property>
+		<relationship name="folder">
+			<destination>{a76b087a-2e46-4a44-a296-891c2be5b3e3}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{06f722df-98cb-416c-99ea-abc3cf17fa99}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{06f722df-98cb-416c-99ea-abc3cf17fa99}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

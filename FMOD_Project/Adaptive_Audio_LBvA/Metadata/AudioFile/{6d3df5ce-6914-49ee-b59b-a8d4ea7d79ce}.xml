@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{6d3df5ce-6914-49ee-b59b-a8d4ea7d79ce}">
+		<property name="assetPath">
+			<value>Hum_Loop.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>9.8026757369614508</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{33a11119-42d7-487e-873d-0d8dbb79bd9d}</destination>
+		</relationship>
+	</object>
+</objects>
