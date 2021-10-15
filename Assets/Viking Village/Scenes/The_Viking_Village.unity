@@ -13544,6 +13544,8 @@ MonoBehaviour:
   Emitters:
   - Target: {fileID: 1718362763}
     Params:
+    - Name: Wind Howl
+      Value: 0.55
     - Name: Rain_Intensity
       Value: 0
     - Name: Wind_Intensity
@@ -14786,42 +14788,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 418714737}
   m_PrefabAsset: {fileID: 0}
---- !u!84 &421928584
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: WaterDepthMap
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 3
-  m_Width: 1024
-  m_Height: 1024
-  m_AntiAliasing: 1
-  m_MipCount: -1
-  m_DepthFormat: 2
-  m_ColorFormat: 142
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1 &423267025
 GameObject:
   m_ObjectHideFlags: 0
@@ -18764,6 +18730,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 24242024}
     m_Modifications:
+    - target: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
+      propertyPath: m_Name
+      value: pf_torch_stick_01
+      objectReference: {fileID: 0}
     - target: {fileID: 400012, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -18795,6 +18765,28 @@ PrefabInstance:
     - target: {fileID: 400012, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0.14159472
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -0.426
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -78.901
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 2.168
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519512670209457208, guid: f632ee341faffa64ebfa4e2c74d6e422,
+        type: 3}
+      propertyPath: OverrideAttenuation
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519512670209457208, guid: f632ee341faffa64ebfa4e2c74d6e422,
+        type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
@@ -41844,6 +41836,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 24242024}
     m_Modifications:
+    - target: {fileID: 100002, guid: 44eb32dcdfb035f4cb156673d7722d3a, type: 3}
+      propertyPath: m_Name
+      value: pf_torch_fire_01
+      objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 44eb32dcdfb035f4cb156673d7722d3a, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -41876,37 +41872,17 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 19803844, guid: 44eb32dcdfb035f4cb156673d7722d3a, type: 3}
-      propertyPath: InitialModule.startSizeY.minMaxState
-      value: 3
+    - target: {fileID: 400002, guid: 44eb32dcdfb035f4cb156673d7722d3a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 19803844, guid: 44eb32dcdfb035f4cb156673d7722d3a, type: 3}
-      propertyPath: InitialModule.startSizeZ.minMaxState
-      value: 3
+    - target: {fileID: 400002, guid: 44eb32dcdfb035f4cb156673d7722d3a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 19803844, guid: 44eb32dcdfb035f4cb156673d7722d3a, type: 3}
-      propertyPath: InitialModule.startRotationX.minMaxState
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 19803844, guid: 44eb32dcdfb035f4cb156673d7722d3a, type: 3}
-      propertyPath: InitialModule.startRotationY.minMaxState
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 19871498, guid: 44eb32dcdfb035f4cb156673d7722d3a, type: 3}
-      propertyPath: InitialModule.startSizeY.minMaxState
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 19871498, guid: 44eb32dcdfb035f4cb156673d7722d3a, type: 3}
-      propertyPath: InitialModule.startSizeZ.minMaxState
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 19871498, guid: 44eb32dcdfb035f4cb156673d7722d3a, type: 3}
-      propertyPath: InitialModule.startRotationX.minMaxState
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 19871498, guid: 44eb32dcdfb035f4cb156673d7722d3a, type: 3}
-      propertyPath: InitialModule.startRotationY.minMaxState
-      value: 3
+    - target: {fileID: 400002, guid: 44eb32dcdfb035f4cb156673d7722d3a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 44eb32dcdfb035f4cb156673d7722d3a, type: 3}
@@ -46835,6 +46811,42 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 438959554}
   m_PrefabAsset: {fileID: 0}
+--- !u!84 &1324664446
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WaterDepthMap
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 3
+  m_Width: 1024
+  m_Height: 1024
+  m_AntiAliasing: 1
+  m_MipCount: -1
+  m_DepthFormat: 2
+  m_ColorFormat: 142
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1001 &1326309717
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47947,7 +47959,7 @@ MonoBehaviour:
     - Name: Wolves
       Value: 0
     - Name: Wind Howl
-      Value: 1
+      Value: 0.95
     - Name: Wind_Intensity
       Value: 0.8
     - Name: Thunder
@@ -47957,11 +47969,11 @@ MonoBehaviour:
   - Target: {fileID: 1718362762}
     Params:
     - Name: Wind_Intensity
-      Value: 0.8
+      Value: 0.88
     - Name: Thunder
-      Value: 0.8
+      Value: 0.88
     - Name: Rain_Intensity
-      Value: 0.8
+      Value: 0.88
   - Target: {fileID: 1718362760}
     Params: []
   TriggerEvent: 3
@@ -51837,13 +51849,15 @@ MonoBehaviour:
   - Target: {fileID: 1718362763}
     Params:
     - Name: Wolves
-      Value: 0.55
+      Value: 0.88
     - Name: Wind Howl
-      Value: 0.333
+      Value: 0.2
     - Name: BG_Ambience
       Value: 0.1
   - Target: {fileID: 1718362762}
-    Params: []
+    Params:
+    - Name: Wind_Intensity
+      Value: 0.15
   - Target: {fileID: 1718362760}
     Params: []
   TriggerEvent: 3
